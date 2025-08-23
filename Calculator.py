@@ -1,10 +1,16 @@
 class Calculator:
     def __init__(self, history):
-        self.history = history
+        self.history = []
 
-    def ask_user_input(self, x, y):
-        x = input()
+    def ask_user_input(self):
+        x = float(input("x: "))
+        y = float(input("y: "))
 
+    def add(self, x, y):
+        result = x + y
+        self.history.apppend(result)
+        return result
 
-    def add(self):
-        x 
+calc = Calculator
+
+print(calc.add)
