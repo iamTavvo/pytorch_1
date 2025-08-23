@@ -3,8 +3,8 @@ class Calculator:
         self.history = history
 
     def ask_user_input(self):
-        x = float(input("First Num: "))
-        y = float(input("Secound Num: "))
+        x = float(input("x: "))
+        y = float(input("y: "))
         return x, y
 
     def add(self):
