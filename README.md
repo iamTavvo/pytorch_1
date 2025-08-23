@@ -1,1 +1,1 @@
-# i am going to learn using pytorch
+# i am going to learn pytorch
